@@ -1,10 +1,11 @@
 {
-  "name": "pia-foundry-bridge",
+  "name": "aptitude-bot",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc",
+    "start": "node main.js"
   },
   "author": "Adraxas",
   "license": "MIT",
