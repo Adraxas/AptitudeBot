@@ -1,0 +1,20 @@
+{
+  "name": "pia-foundry-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adraxas",
+  "license": "MIT",
+  "dependencies": {
+    "discord-api-types": "^0.37.11",
+    "discord.js": "^14.5.0",
+    "fs-extra": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "typescript": "^4.8.4"
+  }
+}

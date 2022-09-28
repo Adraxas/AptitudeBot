@@ -1,0 +1,7 @@
+config.json
+/node_modules
+/.vscode
+*.js
+*.d.ts
+*.js.map
+deploy-commands.ts
