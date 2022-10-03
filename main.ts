@@ -27,8 +27,7 @@ async function getChannel(){
 		
 		let channel = await client.channels.fetch(config.targetChannel);
 		if(!channel && iter < 5){
-			await wait(2000);
-			iter++;
+			await wait(2000)
 			return await trygetChannel();
 		}else if(!channel||channel.type !== ChannelType.GuildText){
 			throw "Target channel is unreachable or of wrong type";
